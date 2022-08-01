@@ -153,7 +153,7 @@ Transform:
   m_GameObject: {fileID: 323318565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 5
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 2037887757}
   isDead: 0
 --- !u!1 &377070607
 GameObject:
@@ -1084,6 +1084,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4749985772044998934, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749985772044998936, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749985772538056121, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749985772538056123, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749985772717405634, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4749985772717405636, guid: 832e44737577343d38bf370d7c49d1f9, type: 3}
       propertyPath: m_Name
       value: Obstacle Pipes
